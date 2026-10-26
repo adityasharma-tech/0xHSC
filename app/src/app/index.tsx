@@ -17,9 +17,11 @@ import {
   size,
 } from '@expo/ui/jetpack-compose/modifiers';
 import GaugeComp from '@/components/gauge';
+import { useState } from 'react';
 
 
 export default function HomeScreen() {
+  const [connected, setConnected] = useState(false);
   return (
     <ThemedView style={styles.container}>
       <SafeAreaView style={styles.safeArea}>
@@ -36,35 +38,32 @@ export default function HomeScreen() {
           <ThemedView style={{
             flexDirection: 'row',
             flex: 1
-          }}>
-          <FloatingToolbarExample />
+            }}>
+              <Host style={styles.host}>
+                <Box
+                  modifiers={[fillMaxSize()]}
+                  floatingToolbarExitAlwaysScrollBehavior="bottom">
+                  <HorizontalFloatingToolbar
+                    variant="vibrant"
+                    modifiers={[align('bottomCenter'), offset(0, -16)]}>
+                    <IconButton modifiers={[size(68, 60)]} onClick={()=>setConnected(val=>!val)}>
+                      <Icon size={56} source={require('../../assets/images/play_pause.png')} />
+                    </IconButton>
+                    <IconButton modifiers={[size(68, 60)]} onClick={()=>setConnected(val=>!val)}>
+                      {connected ? <Icon size={36} source={require('../../assets/images/connected.png')} /> : <Icon size={36} source={require('../../assets/images/not_connected.png')} />}
+                    </IconButton>
+                    <HorizontalFloatingToolbar.FloatingActionButton
+                      onPress={() => console.log('Next pressed')}>
+                      <Icon size={36} source={require('../../assets/images/skip_next.png')} />
+                    </HorizontalFloatingToolbar.FloatingActionButton>
+                  </HorizontalFloatingToolbar>
+                </Box>
+              </Host>
           </ThemedView>
           </ThemedView>
         </ThemedView>
       </SafeAreaView>
     </ThemedView>
-  );
-}
-
-function FloatingToolbarExample() {
-  return (
-    <Host style={styles.host}>
-      <Box
-        modifiers={[fillMaxSize()]}
-        floatingToolbarExitAlwaysScrollBehavior="bottom">
-        <HorizontalFloatingToolbar
-          variant="vibrant"
-          modifiers={[align('bottomCenter'), offset(0, -16)]}>
-          <IconButton modifiers={[size(68, 60)]} onClick={() => console.log('Play/Pause pressed')}>
-            <Icon size={56} source={require('../../assets/images/play_pause.png')} />
-          </IconButton>
-          <HorizontalFloatingToolbar.FloatingActionButton
-            onPress={() => console.log('Next pressed')}>
-            <Icon size={36} source={require('../../assets/images/skip_next.png')} />
-          </HorizontalFloatingToolbar.FloatingActionButton>
-        </HorizontalFloatingToolbar>
-      </Box>
-    </Host>
   );
 }
 
