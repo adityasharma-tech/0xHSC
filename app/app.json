@@ -11,7 +11,20 @@
       "icon": "./assets/expo.icon"
     },
     "android": {
-      "predictiveBackGestureEnabled": false
+      "permissions": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "BLUETOOTH_CONNECT",
+        "ACCESS_FINE_LOCATION",
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.BLUETOOTH_SCAN",
+        "android.permission.BLUETOOTH_ADVERTISE"
+      ],
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.app"
     },
     "web": {
       "output": "server",
@@ -25,6 +38,14 @@
           "backgroundColor": "#208AEF",
           "image": "./assets/images/new-icon.png",
           "imageWidth": 76
+        }
+      ],
+      [
+        "with-rn-bluetooth-classic",
+        {
+          "peripheralUsageDescription": "Connect to ESP32 over Bluetooth",
+          "alwaysUsageDescription": "Use Bluetooth to communicate with ESP32",
+          "protocols": []
         }
       ]
     ],
