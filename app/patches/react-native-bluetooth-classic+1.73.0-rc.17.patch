@@ -1,0 +1,1171 @@
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/results.bin b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/results.bin
+new file mode 100644
+index 0000000..7ed749e
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/results.bin
+@@ -0,0 +1 @@
++o/bundleLibRuntimeToDirDebug
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/android/BiConsumer.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/android/BiConsumer.dex
+new file mode 100644
+index 0000000..683093a
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/android/BiConsumer.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BluetoothException.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BluetoothException.dex
+new file mode 100644
+index 0000000..2f336bf
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BluetoothException.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BluetoothMessage.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BluetoothMessage.dex
+new file mode 100644
+index 0000000..3186dd7
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BluetoothMessage.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BluetoothRequest.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BluetoothRequest.dex
+new file mode 100644
+index 0000000..035eaa0
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BluetoothRequest.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BluetoothState.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BluetoothState.dex
+new file mode 100644
+index 0000000..7319987
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BluetoothState.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BluetoothUUID.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BluetoothUUID.dex
+new file mode 100644
+index 0000000..4b7d0ff
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BluetoothUUID.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BondState.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BondState.dex
+new file mode 100644
+index 0000000..d2a491e
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/BondState.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/DevicePairingException.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/DevicePairingException.dex
+new file mode 100644
+index 0000000..3c41993
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/DevicePairingException.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/Exceptions.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/Exceptions.dex
+new file mode 100644
+index 0000000..f0dacfb
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/Exceptions.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/InvalidBluetoothEventException.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/InvalidBluetoothEventException.dex
+new file mode 100644
+index 0000000..ad86d79
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/InvalidBluetoothEventException.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/Mappable.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/Mappable.dex
+new file mode 100644
+index 0000000..31b03cc
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/Mappable.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule$1.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule$1.dex
+new file mode 100644
+index 0000000..0394376
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule$1.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule$2.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule$2.dex
+new file mode 100644
+index 0000000..85808a3
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule$2.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule$3.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule$3.dex
+new file mode 100644
+index 0000000..cc3b920
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule$3.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule$4.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule$4.dex
+new file mode 100644
+index 0000000..98830ff
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule$4.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule$5.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule$5.dex
+new file mode 100644
+index 0000000..47c693e
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule$5.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule.dex
+new file mode 100644
+index 0000000..305d7d5
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicModule.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$1.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$1.dex
+new file mode 100644
+index 0000000..6bed7b9
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$1.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$Builder.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$Builder.dex
+new file mode 100644
+index 0000000..e225d2e
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$Builder.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicPackage.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicPackage.dex
+new file mode 100644
+index 0000000..3fe6468
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/RNBluetoothClassicPackage.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/Utilities.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/Utilities.dex
+new file mode 100644
+index 0000000..48f53c8
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/Utilities.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/AbstractDeviceConnection.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/AbstractDeviceConnection.dex
+new file mode 100644
+index 0000000..83a252d
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/AbstractDeviceConnection.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/AcceptFailedException.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/AcceptFailedException.dex
+new file mode 100644
+index 0000000..5a4e770
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/AcceptFailedException.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ByteArrayDeviceConnectionImpl.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ByteArrayDeviceConnectionImpl.dex
+new file mode 100644
+index 0000000..c8dd22d
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ByteArrayDeviceConnectionImpl.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionAcceptor$AcceptorListener.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionAcceptor$AcceptorListener.dex
+new file mode 100644
+index 0000000..9dc552e
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionAcceptor$AcceptorListener.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionAcceptor.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionAcceptor.dex
+new file mode 100644
+index 0000000..dc214df
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionAcceptor.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionAcceptorFactory.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionAcceptorFactory.dex
+new file mode 100644
+index 0000000..5bb658c
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionAcceptorFactory.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionConnector$ConnectorListener.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionConnector$ConnectorListener.dex
+new file mode 100644
+index 0000000..52a23e1
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionConnector$ConnectorListener.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionConnector.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionConnector.dex
+new file mode 100644
+index 0000000..d1ff231
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionConnector.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionConnectorFactory.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionConnectorFactory.dex
+new file mode 100644
+index 0000000..8bdc21c
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionConnectorFactory.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionFailedException.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionFailedException.dex
+new file mode 100644
+index 0000000..a879f93
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionFailedException.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionLostException.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionLostException.dex
+new file mode 100644
+index 0000000..31673c2
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionLostException.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionStatus.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionStatus.dex
+new file mode 100644
+index 0000000..1eb543e
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionStatus.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionType.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionType.dex
+new file mode 100644
+index 0000000..fe1479e
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/ConnectionType.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/DelimitedStringDeviceConnectionImpl.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/DelimitedStringDeviceConnectionImpl.dex
+new file mode 100644
+index 0000000..7de2e22
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/DelimitedStringDeviceConnectionImpl.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/DeviceConnection.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/DeviceConnection.dex
+new file mode 100644
+index 0000000..d24056e
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/DeviceConnection.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/DeviceConnectionFactory.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/DeviceConnectionFactory.dex
+new file mode 100644
+index 0000000..339e919
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/DeviceConnectionFactory.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/RfcommAcceptorThreadImpl.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/RfcommAcceptorThreadImpl.dex
+new file mode 100644
+index 0000000..656f180
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/RfcommAcceptorThreadImpl.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/RfcommConnectorThreadImpl.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/RfcommConnectorThreadImpl.dex
+new file mode 100644
+index 0000000..5dba7f1
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/RfcommConnectorThreadImpl.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/StandardOption$1.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/StandardOption$1.dex
+new file mode 100644
+index 0000000..fac2c50
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/StandardOption$1.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/StandardOption.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/StandardOption.dex
+new file mode 100644
+index 0000000..11ac614
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/conn/StandardOption.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/device/NativeDevice.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/device/NativeDevice.dex
+new file mode 100644
+index 0000000..765a899
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/device/NativeDevice.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/event/BluetoothDeviceEvent.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/event/BluetoothDeviceEvent.dex
+new file mode 100644
+index 0000000..09d3077
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/event/BluetoothDeviceEvent.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/event/BluetoothEvent.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/event/BluetoothEvent.dex
+new file mode 100644
+index 0000000..a8acead
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/event/BluetoothEvent.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/event/BluetoothStateEvent.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/event/BluetoothStateEvent.dex
+new file mode 100644
+index 0000000..df09547
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/event/BluetoothStateEvent.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/event/EventType.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/event/EventType.dex
+new file mode 100644
+index 0000000..62982f6
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/event/EventType.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/ActionACLReceiver$ActionACLCallback.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/ActionACLReceiver$ActionACLCallback.dex
+new file mode 100644
+index 0000000..750ce7f
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/ActionACLReceiver$ActionACLCallback.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/ActionACLReceiver.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/ActionACLReceiver.dex
+new file mode 100644
+index 0000000..a09161c
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/ActionACLReceiver.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver$DiscoveryCallback.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver$DiscoveryCallback.dex
+new file mode 100644
+index 0000000..5af2153
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver$DiscoveryCallback.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver.dex
+new file mode 100644
+index 0000000..feeb3ed
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/PairingReceiver$PairingCallback.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/PairingReceiver$PairingCallback.dex
+new file mode 100644
+index 0000000..8f0c6cd
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/PairingReceiver$PairingCallback.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/PairingReceiver.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/PairingReceiver.dex
+new file mode 100644
+index 0000000..f94bc4a
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/PairingReceiver.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/StateChangeReceiver$StateChangeCallback.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/StateChangeReceiver$StateChangeCallback.dex
+new file mode 100644
+index 0000000..e7b7b69
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/StateChangeReceiver$StateChangeCallback.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/StateChangeReceiver.dex b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/StateChangeReceiver.dex
+new file mode 100644
+index 0000000..61d888e
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/kjd/reactnative/bluetooth/receiver/StateChangeReceiver.dex differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicModule$$InternalSyntheticLambda$9$885ef7b58d7e0e51b5d7d8e4a212d546d993304b2769f8be773744e5772c4d2d$0.globals b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicModule$$InternalSyntheticLambda$9$885ef7b58d7e0e51b5d7d8e4a212d546d993304b2769f8be773744e5772c4d2d$0.globals
+new file mode 100644
+index 0000000..cf6ce7d
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicModule$$InternalSyntheticLambda$9$885ef7b58d7e0e51b5d7d8e4a212d546d993304b2769f8be773744e5772c4d2d$0.globals differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicModule$$InternalSyntheticLambda$9$885ef7b58d7e0e51b5d7d8e4a212d546d993304b2769f8be773744e5772c4d2d$1.globals b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicModule$$InternalSyntheticLambda$9$885ef7b58d7e0e51b5d7d8e4a212d546d993304b2769f8be773744e5772c4d2d$1.globals
+new file mode 100644
+index 0000000..cf6ce7d
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicModule$$InternalSyntheticLambda$9$885ef7b58d7e0e51b5d7d8e4a212d546d993304b2769f8be773744e5772c4d2d$1.globals differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$5afe4b4d8d85fe2478e2c1f74876954e9b5c67f515e5e47c4fa53a183891b5fc$0.globals b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$5afe4b4d8d85fe2478e2c1f74876954e9b5c67f515e5e47c4fa53a183891b5fc$0.globals
+new file mode 100644
+index 0000000..cf6ce7d
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$5afe4b4d8d85fe2478e2c1f74876954e9b5c67f515e5e47c4fa53a183891b5fc$0.globals differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$5afe4b4d8d85fe2478e2c1f74876954e9b5c67f515e5e47c4fa53a183891b5fc$1.globals b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$5afe4b4d8d85fe2478e2c1f74876954e9b5c67f515e5e47c4fa53a183891b5fc$1.globals
+new file mode 100644
+index 0000000..cf6ce7d
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$5afe4b4d8d85fe2478e2c1f74876954e9b5c67f515e5e47c4fa53a183891b5fc$1.globals differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$5afe4b4d8d85fe2478e2c1f74876954e9b5c67f515e5e47c4fa53a183891b5fc$2.globals b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$5afe4b4d8d85fe2478e2c1f74876954e9b5c67f515e5e47c4fa53a183891b5fc$2.globals
+new file mode 100644
+index 0000000..cf6ce7d
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$5afe4b4d8d85fe2478e2c1f74876954e9b5c67f515e5e47c4fa53a183891b5fc$2.globals differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$5afe4b4d8d85fe2478e2c1f74876954e9b5c67f515e5e47c4fa53a183891b5fc$3.globals b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$5afe4b4d8d85fe2478e2c1f74876954e9b5c67f515e5e47c4fa53a183891b5fc$3.globals
+new file mode 100644
+index 0000000..cf6ce7d
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$5afe4b4d8d85fe2478e2c1f74876954e9b5c67f515e5e47c4fa53a183891b5fc$3.globals differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$ff95142d81b8a19908b5ac507a265f13cd7f01b7535ad6acf3594bf3b22dcbb0$0.globals b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$ff95142d81b8a19908b5ac507a265f13cd7f01b7535ad6acf3594bf3b22dcbb0$0.globals
+new file mode 100644
+index 0000000..cf6ce7d
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$ff95142d81b8a19908b5ac507a265f13cd7f01b7535ad6acf3594bf3b22dcbb0$0.globals differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$ff95142d81b8a19908b5ac507a265f13cd7f01b7535ad6acf3594bf3b22dcbb0$1.globals b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$ff95142d81b8a19908b5ac507a265f13cd7f01b7535ad6acf3594bf3b22dcbb0$1.globals
+new file mode 100644
+index 0000000..cf6ce7d
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$$InternalSyntheticLambda$5$ff95142d81b8a19908b5ac507a265f13cd7f01b7535ad6acf3594bf3b22dcbb0$1.globals differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$1$$InternalSyntheticLambda$2$ac78f2eaa15d31f2d4491e7bbc9b757d8d6166e1a0c906adef47dbebd4219344$0.globals b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$1$$InternalSyntheticLambda$2$ac78f2eaa15d31f2d4491e7bbc9b757d8d6166e1a0c906adef47dbebd4219344$0.globals
+new file mode 100644
+index 0000000..cf6ce7d
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$1$$InternalSyntheticLambda$2$ac78f2eaa15d31f2d4491e7bbc9b757d8d6166e1a0c906adef47dbebd4219344$0.globals differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$1$$InternalSyntheticLambda$2$ac78f2eaa15d31f2d4491e7bbc9b757d8d6166e1a0c906adef47dbebd4219344$1.globals b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$1$$InternalSyntheticLambda$2$ac78f2eaa15d31f2d4491e7bbc9b757d8d6166e1a0c906adef47dbebd4219344$1.globals
+new file mode 100644
+index 0000000..cf6ce7d
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_global-synthetics/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$1$$InternalSyntheticLambda$2$ac78f2eaa15d31f2d4491e7bbc9b757d8d6166e1a0c906adef47dbebd4219344$1.globals differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin
+new file mode 100644
+index 0000000..d52a812
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/.transforms/72d14086e42dcdb88c1627bfb7019980/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml b/node_modules/react-native-bluetooth-classic/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+new file mode 100644
+index 0000000..d1bc9c5
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+@@ -0,0 +1,24 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="kjd.reactnative.bluetooth" >
++
++    <uses-sdk android:minSdkVersion="24" />
++
++    <uses-permission
++        android:name="android.permission.BLUETOOTH"
++        android:maxSdkVersion="30" />
++    <uses-permission
++        android:name="android.permission.BLUETOOTH_ADMIN"
++        android:maxSdkVersion="30" />
++    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
++
++    <!-- Permissions for Android 12+ (API 31+) -->
++    <uses-permission
++        android:name="android.permission.BLUETOOTH_SCAN"
++        android:minSdkVersion="31"
++        android:usesPermissionFlags="neverForLocation" />
++    <uses-permission
++        android:name="android.permission.BLUETOOTH_CONNECT"
++        android:minSdkVersion="31" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json b/node_modules/react-native-bluetooth-classic/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+new file mode 100644
+index 0000000..5a9c386
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+@@ -0,0 +1,18 @@
++{
++  "version": 3,
++  "artifactType": {
++    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
++    "kind": "Directory"
++  },
++  "applicationId": "kjd.reactnative.bluetooth",
++  "variantName": "debug",
++  "elements": [
++    {
++      "type": "SINGLE",
++      "filters": [],
++      "attributes": [],
++      "outputFile": "AndroidManifest.xml"
++    }
++  ],
++  "elementType": "File"
++}
+\ No newline at end of file
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties b/node_modules/react-native-bluetooth-classic/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+new file mode 100644
+index 0000000..b4c821b
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+@@ -0,0 +1,7 @@
++aarFormatVersion=1.0
++aarMetadataVersion=1.0
++minCompileSdk=37
++minCompileMinorSdk=0
++minCompileSdkExtension=0
++minAndroidGradlePluginVersion=1.0.0
++coreLibraryDesugaringEnabled=false
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/android_res_source_set_path_map/debug/mapDebugSourceSetPaths/file-map.txt b/node_modules/react-native-bluetooth-classic/android/build/intermediates/android_res_source_set_path_map/debug/mapDebugSourceSetPaths/file-map.txt
+new file mode 100644
+index 0000000..3dee0b6
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/intermediates/android_res_source_set_path_map/debug/mapDebugSourceSetPaths/file-map.txt
+@@ -0,0 +1,9 @@
++kjd.reactnative.bluetooth.react-native-bluetooth-classic-pngs-0 /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/build/generated/res/pngs/debug
++kjd.reactnative.bluetooth.react-native-bluetooth-classic-updated_navigation_xml-1 /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/build/generated/updated_navigation_xml/debug
++kjd.reactnative.bluetooth.react-native-bluetooth-classic-mergeDebugResources-2 /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
++kjd.reactnative.bluetooth.react-native-bluetooth-classic-mergeDebugResources-3 /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
++kjd.reactnative.bluetooth.react-native-bluetooth-classic-debug-4 /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/build/intermediates/merged_res/debug/mergeDebugResources
++kjd.reactnative.bluetooth.react-native-bluetooth-classic-debug-5 /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/build/intermediates/packaged_res/debug/packageDebugResources
++kjd.reactnative.bluetooth.react-native-bluetooth-classic-debug-6 /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/debug/res
++kjd.reactnative.bluetooth.react-native-bluetooth-classic-main-7 /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/res
++gradleHome-0 /home/friday/.gradle
+\ No newline at end of file
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json b/node_modules/react-native-bluetooth-classic/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+new file mode 100644
+index 0000000..9e26dfe
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+@@ -0,0 +1 @@
++{}
+\ No newline at end of file
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar b/node_modules/react-native-bluetooth-classic/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar
+new file mode 100644
+index 0000000..a6f3d87
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar b/node_modules/react-native-bluetooth-classic/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar
+new file mode 100644
+index 0000000..5ecedbc
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt b/node_modules/react-native-bluetooth-classic/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties b/node_modules/react-native-bluetooth-classic/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+new file mode 100644
+index 0000000..8656ff9
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+@@ -0,0 +1 @@
++#Tue Oct 27 19:41:41 IST 2026
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml b/node_modules/react-native-bluetooth-classic/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+new file mode 100644
+index 0000000..a47f19f
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/friday/Arduino/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!&lt;dir>navigation"><source path="/home/friday/Arduino/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/friday/Arduino/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!&lt;dir>navigation"><source path="/home/friday/Arduino/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!&lt;dir>navigation"/><mergedItems/></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/incremental/mergeDebugAssets/merger.xml b/node_modules/react-native-bluetooth-classic/android/build/intermediates/incremental/mergeDebugAssets/merger.xml
+new file mode 100644
+index 0000000..2012cef
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/intermediates/incremental/mergeDebugAssets/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/assets"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/debug/assets"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml b/node_modules/react-native-bluetooth-classic/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+new file mode 100644
+index 0000000..3f0892c
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/debug/jniLibs"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/android/BiConsumer.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/android/BiConsumer.class
+new file mode 100644
+index 0000000..78fd220
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/android/BiConsumer.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BluetoothException.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BluetoothException.class
+new file mode 100644
+index 0000000..652feca
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BluetoothException.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BluetoothMessage.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BluetoothMessage.class
+new file mode 100644
+index 0000000..d777259
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BluetoothMessage.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BluetoothRequest.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BluetoothRequest.class
+new file mode 100644
+index 0000000..d41425b
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BluetoothRequest.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BluetoothState.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BluetoothState.class
+new file mode 100644
+index 0000000..bf169a0
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BluetoothState.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BluetoothUUID.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BluetoothUUID.class
+new file mode 100644
+index 0000000..139bc64
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BluetoothUUID.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BondState.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BondState.class
+new file mode 100644
+index 0000000..03de38b
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/BondState.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/DevicePairingException.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/DevicePairingException.class
+new file mode 100644
+index 0000000..f3a8fe3
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/DevicePairingException.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/Exceptions.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/Exceptions.class
+new file mode 100644
+index 0000000..d269a38
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/Exceptions.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/InvalidBluetoothEventException.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/InvalidBluetoothEventException.class
+new file mode 100644
+index 0000000..37df16b
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/InvalidBluetoothEventException.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/Mappable.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/Mappable.class
+new file mode 100644
+index 0000000..185cf3e
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/Mappable.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule$1.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule$1.class
+new file mode 100644
+index 0000000..2bac4d9
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule$1.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule$2.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule$2.class
+new file mode 100644
+index 0000000..443cf28
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule$2.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule$3.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule$3.class
+new file mode 100644
+index 0000000..32cd277
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule$3.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule$4.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule$4.class
+new file mode 100644
+index 0000000..51f8669
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule$4.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule$5.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule$5.class
+new file mode 100644
+index 0000000..3a46440
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule$5.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule.class
+new file mode 100644
+index 0000000..ea58c47
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicModule.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$1.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$1.class
+new file mode 100644
+index 0000000..d7b9091
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$1.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$Builder.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$Builder.class
+new file mode 100644
+index 0000000..290773c
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$Builder.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicPackage.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicPackage.class
+new file mode 100644
+index 0000000..36bdbc8
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/RNBluetoothClassicPackage.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/Utilities.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/Utilities.class
+new file mode 100644
+index 0000000..74ca6e7
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/Utilities.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/AbstractDeviceConnection.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/AbstractDeviceConnection.class
+new file mode 100644
+index 0000000..1495bd7
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/AbstractDeviceConnection.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/AcceptFailedException.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/AcceptFailedException.class
+new file mode 100644
+index 0000000..8692327
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/AcceptFailedException.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ByteArrayDeviceConnectionImpl.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ByteArrayDeviceConnectionImpl.class
+new file mode 100644
+index 0000000..d1e9f43
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ByteArrayDeviceConnectionImpl.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionAcceptor$AcceptorListener.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionAcceptor$AcceptorListener.class
+new file mode 100644
+index 0000000..872fc07
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionAcceptor$AcceptorListener.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionAcceptor.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionAcceptor.class
+new file mode 100644
+index 0000000..dccb8c4
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionAcceptor.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionAcceptorFactory.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionAcceptorFactory.class
+new file mode 100644
+index 0000000..0cb7d90
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionAcceptorFactory.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionConnector$ConnectorListener.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionConnector$ConnectorListener.class
+new file mode 100644
+index 0000000..a207dc0
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionConnector$ConnectorListener.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionConnector.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionConnector.class
+new file mode 100644
+index 0000000..398799c
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionConnector.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionConnectorFactory.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionConnectorFactory.class
+new file mode 100644
+index 0000000..e0cde80
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionConnectorFactory.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionFailedException.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionFailedException.class
+new file mode 100644
+index 0000000..5a5bd53
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionFailedException.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionLostException.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionLostException.class
+new file mode 100644
+index 0000000..8546dc0
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionLostException.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionStatus.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionStatus.class
+new file mode 100644
+index 0000000..4b00291
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionStatus.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionType.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionType.class
+new file mode 100644
+index 0000000..27a6e72
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/ConnectionType.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/DelimitedStringDeviceConnectionImpl.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/DelimitedStringDeviceConnectionImpl.class
+new file mode 100644
+index 0000000..68acedf
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/DelimitedStringDeviceConnectionImpl.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/DeviceConnection.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/DeviceConnection.class
+new file mode 100644
+index 0000000..83e41f9
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/DeviceConnection.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/DeviceConnectionFactory.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/DeviceConnectionFactory.class
+new file mode 100644
+index 0000000..7bc4a26
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/DeviceConnectionFactory.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/RfcommAcceptorThreadImpl.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/RfcommAcceptorThreadImpl.class
+new file mode 100644
+index 0000000..4bf13a0
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/RfcommAcceptorThreadImpl.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/RfcommConnectorThreadImpl.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/RfcommConnectorThreadImpl.class
+new file mode 100644
+index 0000000..76eec99
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/RfcommConnectorThreadImpl.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/StandardOption$1.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/StandardOption$1.class
+new file mode 100644
+index 0000000..391a9d4
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/StandardOption$1.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/StandardOption.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/StandardOption.class
+new file mode 100644
+index 0000000..833c3b4
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/conn/StandardOption.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/device/NativeDevice.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/device/NativeDevice.class
+new file mode 100644
+index 0000000..fc1362a
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/device/NativeDevice.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/event/BluetoothDeviceEvent.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/event/BluetoothDeviceEvent.class
+new file mode 100644
+index 0000000..8a0475a
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/event/BluetoothDeviceEvent.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/event/BluetoothEvent.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/event/BluetoothEvent.class
+new file mode 100644
+index 0000000..d17411c
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/event/BluetoothEvent.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/event/BluetoothStateEvent.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/event/BluetoothStateEvent.class
+new file mode 100644
+index 0000000..70b3c62
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/event/BluetoothStateEvent.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/event/EventType.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/event/EventType.class
+new file mode 100644
+index 0000000..a2a6d1b
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/event/EventType.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/ActionACLReceiver$ActionACLCallback.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/ActionACLReceiver$ActionACLCallback.class
+new file mode 100644
+index 0000000..97b3542
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/ActionACLReceiver$ActionACLCallback.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/ActionACLReceiver.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/ActionACLReceiver.class
+new file mode 100644
+index 0000000..a5195de
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/ActionACLReceiver.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver$DiscoveryCallback.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver$DiscoveryCallback.class
+new file mode 100644
+index 0000000..0e9e8c0
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver$DiscoveryCallback.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver.class
+new file mode 100644
+index 0000000..ad7b7ca
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/PairingReceiver$PairingCallback.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/PairingReceiver$PairingCallback.class
+new file mode 100644
+index 0000000..d2a38be
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/PairingReceiver$PairingCallback.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/PairingReceiver.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/PairingReceiver.class
+new file mode 100644
+index 0000000..b12dcd5
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/PairingReceiver.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/StateChangeReceiver$StateChangeCallback.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/StateChangeReceiver$StateChangeCallback.class
+new file mode 100644
+index 0000000..fcd8a3b
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/StateChangeReceiver$StateChangeCallback.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/StateChangeReceiver.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/StateChangeReceiver.class
+new file mode 100644
+index 0000000..7b8667a
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/kjd/reactnative/bluetooth/receiver/StateChangeReceiver.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt b/node_modules/react-native-bluetooth-classic/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+new file mode 100644
+index 0000000..78ac5b8
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+@@ -0,0 +1,2 @@
++R_DEF: Internal format may change without notice
++local
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt b/node_modules/react-native-bluetooth-classic/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+new file mode 100644
+index 0000000..19ed643
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+@@ -0,0 +1,41 @@
++1<?xml version="1.0" encoding="utf-8"?>
++2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++3    package="kjd.reactnative.bluetooth" >
++4
++5    <uses-sdk android:minSdkVersion="24" />
++5-->INJECTED
++5-->INJECTED
++6
++7    <uses-permission
++7-->/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:3:5-95
++8        android:name="android.permission.BLUETOOTH"
++8-->/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:3:22-65
++9        android:maxSdkVersion="30" />
++9-->/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:3:66-92
++10    <uses-permission
++10-->/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:4:5-101
++11        android:name="android.permission.BLUETOOTH_ADMIN"
++11-->/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:4:22-71
++12        android:maxSdkVersion="30" />
++12-->/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:4:72-98
++13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
++13-->/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:5:5-79
++13-->/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:5:22-76
++14
++15    <!-- Permissions for Android 12+ (API 31+) -->
++16    <uses-permission
++16-->/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:8:5-147
++17        android:name="android.permission.BLUETOOTH_SCAN"
++17-->/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:8:22-70
++18        android:minSdkVersion="31"
++18-->/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:8:118-144
++19        android:usesPermissionFlags="neverForLocation" />
++19-->/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:8:71-117
++20    <uses-permission
++20-->/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:9:5-103
++21        android:name="android.permission.BLUETOOTH_CONNECT"
++21-->/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:9:22-73
++22        android:minSdkVersion="31" />
++22-->/home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:9:74-100
++23
++24</manifest>
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml b/node_modules/react-native-bluetooth-classic/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+new file mode 100644
+index 0000000..d1bc9c5
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+@@ -0,0 +1,24 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="kjd.reactnative.bluetooth" >
++
++    <uses-sdk android:minSdkVersion="24" />
++
++    <uses-permission
++        android:name="android.permission.BLUETOOTH"
++        android:maxSdkVersion="30" />
++    <uses-permission
++        android:name="android.permission.BLUETOOTH_ADMIN"
++        android:maxSdkVersion="30" />
++    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
++
++    <!-- Permissions for Android 12+ (API 31+) -->
++    <uses-permission
++        android:name="android.permission.BLUETOOTH_SCAN"
++        android:minSdkVersion="31"
++        android:usesPermissionFlags="neverForLocation" />
++    <uses-permission
++        android:name="android.permission.BLUETOOTH_CONNECT"
++        android:minSdkVersion="31" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json b/node_modules/react-native-bluetooth-classic/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+new file mode 100644
+index 0000000..0637a08
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+@@ -0,0 +1 @@
++[]
+\ No newline at end of file
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt b/node_modules/react-native-bluetooth-classic/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+new file mode 100644
+index 0000000..08f4ebe
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+@@ -0,0 +1 @@
++0 Warning/Error
+\ No newline at end of file
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/android/BiConsumer.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/android/BiConsumer.class
+new file mode 100644
+index 0000000..78fd220
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/android/BiConsumer.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BluetoothException.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BluetoothException.class
+new file mode 100644
+index 0000000..652feca
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BluetoothException.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BluetoothMessage.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BluetoothMessage.class
+new file mode 100644
+index 0000000..d777259
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BluetoothMessage.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BluetoothRequest.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BluetoothRequest.class
+new file mode 100644
+index 0000000..d41425b
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BluetoothRequest.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BluetoothState.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BluetoothState.class
+new file mode 100644
+index 0000000..bf169a0
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BluetoothState.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BluetoothUUID.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BluetoothUUID.class
+new file mode 100644
+index 0000000..139bc64
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BluetoothUUID.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BondState.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BondState.class
+new file mode 100644
+index 0000000..03de38b
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/BondState.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/DevicePairingException.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/DevicePairingException.class
+new file mode 100644
+index 0000000..f3a8fe3
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/DevicePairingException.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/Exceptions.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/Exceptions.class
+new file mode 100644
+index 0000000..d269a38
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/Exceptions.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/InvalidBluetoothEventException.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/InvalidBluetoothEventException.class
+new file mode 100644
+index 0000000..37df16b
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/InvalidBluetoothEventException.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/Mappable.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/Mappable.class
+new file mode 100644
+index 0000000..185cf3e
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/Mappable.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule$1.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule$1.class
+new file mode 100644
+index 0000000..2bac4d9
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule$1.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule$2.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule$2.class
+new file mode 100644
+index 0000000..443cf28
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule$2.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule$3.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule$3.class
+new file mode 100644
+index 0000000..32cd277
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule$3.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule$4.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule$4.class
+new file mode 100644
+index 0000000..51f8669
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule$4.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule$5.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule$5.class
+new file mode 100644
+index 0000000..3a46440
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule$5.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule.class
+new file mode 100644
+index 0000000..ea58c47
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicModule.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$1.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$1.class
+new file mode 100644
+index 0000000..d7b9091
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$1.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$Builder.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$Builder.class
+new file mode 100644
+index 0000000..290773c
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicPackage$Builder.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicPackage.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicPackage.class
+new file mode 100644
+index 0000000..36bdbc8
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/RNBluetoothClassicPackage.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/Utilities.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/Utilities.class
+new file mode 100644
+index 0000000..74ca6e7
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/Utilities.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/AbstractDeviceConnection.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/AbstractDeviceConnection.class
+new file mode 100644
+index 0000000..1495bd7
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/AbstractDeviceConnection.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/AcceptFailedException.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/AcceptFailedException.class
+new file mode 100644
+index 0000000..8692327
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/AcceptFailedException.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ByteArrayDeviceConnectionImpl.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ByteArrayDeviceConnectionImpl.class
+new file mode 100644
+index 0000000..d1e9f43
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ByteArrayDeviceConnectionImpl.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionAcceptor$AcceptorListener.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionAcceptor$AcceptorListener.class
+new file mode 100644
+index 0000000..872fc07
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionAcceptor$AcceptorListener.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionAcceptor.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionAcceptor.class
+new file mode 100644
+index 0000000..dccb8c4
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionAcceptor.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionAcceptorFactory.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionAcceptorFactory.class
+new file mode 100644
+index 0000000..0cb7d90
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionAcceptorFactory.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionConnector$ConnectorListener.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionConnector$ConnectorListener.class
+new file mode 100644
+index 0000000..a207dc0
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionConnector$ConnectorListener.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionConnector.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionConnector.class
+new file mode 100644
+index 0000000..398799c
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionConnector.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionConnectorFactory.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionConnectorFactory.class
+new file mode 100644
+index 0000000..e0cde80
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionConnectorFactory.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionFailedException.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionFailedException.class
+new file mode 100644
+index 0000000..5a5bd53
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionFailedException.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionLostException.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionLostException.class
+new file mode 100644
+index 0000000..8546dc0
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionLostException.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionStatus.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionStatus.class
+new file mode 100644
+index 0000000..4b00291
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionStatus.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionType.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionType.class
+new file mode 100644
+index 0000000..27a6e72
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/ConnectionType.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/DelimitedStringDeviceConnectionImpl.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/DelimitedStringDeviceConnectionImpl.class
+new file mode 100644
+index 0000000..68acedf
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/DelimitedStringDeviceConnectionImpl.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/DeviceConnection.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/DeviceConnection.class
+new file mode 100644
+index 0000000..83e41f9
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/DeviceConnection.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/DeviceConnectionFactory.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/DeviceConnectionFactory.class
+new file mode 100644
+index 0000000..7bc4a26
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/DeviceConnectionFactory.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/RfcommAcceptorThreadImpl.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/RfcommAcceptorThreadImpl.class
+new file mode 100644
+index 0000000..4bf13a0
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/RfcommAcceptorThreadImpl.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/RfcommConnectorThreadImpl.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/RfcommConnectorThreadImpl.class
+new file mode 100644
+index 0000000..76eec99
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/RfcommConnectorThreadImpl.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/StandardOption$1.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/StandardOption$1.class
+new file mode 100644
+index 0000000..391a9d4
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/StandardOption$1.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/StandardOption.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/StandardOption.class
+new file mode 100644
+index 0000000..833c3b4
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/conn/StandardOption.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/device/NativeDevice.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/device/NativeDevice.class
+new file mode 100644
+index 0000000..fc1362a
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/device/NativeDevice.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/event/BluetoothDeviceEvent.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/event/BluetoothDeviceEvent.class
+new file mode 100644
+index 0000000..8a0475a
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/event/BluetoothDeviceEvent.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/event/BluetoothEvent.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/event/BluetoothEvent.class
+new file mode 100644
+index 0000000..d17411c
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/event/BluetoothEvent.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/event/BluetoothStateEvent.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/event/BluetoothStateEvent.class
+new file mode 100644
+index 0000000..70b3c62
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/event/BluetoothStateEvent.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/event/EventType.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/event/EventType.class
+new file mode 100644
+index 0000000..a2a6d1b
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/event/EventType.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/ActionACLReceiver$ActionACLCallback.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/ActionACLReceiver$ActionACLCallback.class
+new file mode 100644
+index 0000000..97b3542
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/ActionACLReceiver$ActionACLCallback.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/ActionACLReceiver.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/ActionACLReceiver.class
+new file mode 100644
+index 0000000..a5195de
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/ActionACLReceiver.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver$DiscoveryCallback.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver$DiscoveryCallback.class
+new file mode 100644
+index 0000000..0e9e8c0
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver$DiscoveryCallback.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver.class
+new file mode 100644
+index 0000000..ad7b7ca
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/DiscoveryReceiver.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/PairingReceiver$PairingCallback.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/PairingReceiver$PairingCallback.class
+new file mode 100644
+index 0000000..d2a38be
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/PairingReceiver$PairingCallback.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/PairingReceiver.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/PairingReceiver.class
+new file mode 100644
+index 0000000..b12dcd5
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/PairingReceiver.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/StateChangeReceiver$StateChangeCallback.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/StateChangeReceiver$StateChangeCallback.class
+new file mode 100644
+index 0000000..fcd8a3b
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/StateChangeReceiver$StateChangeCallback.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/StateChangeReceiver.class b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/StateChangeReceiver.class
+new file mode 100644
+index 0000000..7b8667a
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/kjd/reactnative/bluetooth/receiver/StateChangeReceiver.class differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt b/node_modules/react-native-bluetooth-classic/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+new file mode 100644
+index 0000000..1da9a52
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+@@ -0,0 +1 @@
++kjd.reactnative.bluetooth
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/outputs/logs/manifest-merger-debug-report.txt b/node_modules/react-native-bluetooth-classic/android/build/outputs/logs/manifest-merger-debug-report.txt
+new file mode 100644
+index 0000000..5b67745
+--- /dev/null
++++ b/node_modules/react-native-bluetooth-classic/android/build/outputs/logs/manifest-merger-debug-report.txt
+@@ -0,0 +1,46 @@
++-- Merging decision tree log ---
++manifest
++ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:2:1-10:12
++INJECTED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:2:1-10:12
++	package
++		INJECTED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml
++	xmlns:android
++		ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:2:11-69
++uses-permission#android.permission.BLUETOOTH
++ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:3:5-95
++	android:maxSdkVersion
++		ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:3:66-92
++	android:name
++		ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:3:22-65
++uses-permission#android.permission.BLUETOOTH_ADMIN
++ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:4:5-101
++	android:maxSdkVersion
++		ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:4:72-98
++	android:name
++		ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:4:22-71
++uses-permission#android.permission.ACCESS_FINE_LOCATION
++ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:5:5-79
++	android:name
++		ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:5:22-76
++uses-permission#android.permission.BLUETOOTH_SCAN
++ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:8:5-147
++	android:usesPermissionFlags
++		ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:8:71-117
++	android:minSdkVersion
++		ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:8:118-144
++	android:name
++		ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:8:22-70
++uses-permission#android.permission.BLUETOOTH_CONNECT
++ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:9:5-103
++	android:minSdkVersion
++		ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:9:74-100
++	android:name
++		ADDED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml:9:22-73
++uses-sdk
++INJECTED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml
++INJECTED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml
++	android:targetSdkVersion
++		INJECTED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml
++	android:minSdkVersion
++		INJECTED from /home/friday/.data/0xHSC/app/node_modules/react-native-bluetooth-classic/android/src/main/AndroidManifest.xml
+diff --git a/node_modules/react-native-bluetooth-classic/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin b/node_modules/react-native-bluetooth-classic/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin
+new file mode 100644
+index 0000000..ffb4b11
+Binary files /dev/null and b/node_modules/react-native-bluetooth-classic/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin differ
+diff --git a/node_modules/react-native-bluetooth-classic/android/src/main/java/kjd/reactnative/bluetooth/RNBluetoothClassicModule.java b/node_modules/react-native-bluetooth-classic/android/src/main/java/kjd/reactnative/bluetooth/RNBluetoothClassicModule.java
+index f994a0a..23be899 100644
+--- a/node_modules/react-native-bluetooth-classic/android/src/main/java/kjd/reactnative/bluetooth/RNBluetoothClassicModule.java
++++ b/node_modules/react-native-bluetooth-classic/android/src/main/java/kjd/reactnative/bluetooth/RNBluetoothClassicModule.java
+@@ -18,7 +18,7 @@ import android.util.Log;
+ 
+ import androidx.annotation.NonNull;
+ 
+-import com.facebook.react.BuildConfig;
++// import com.facebook.react.BuildConfig;
+ import com.facebook.react.bridge.ActivityEventListener;
+ import com.facebook.react.bridge.Arguments;
+ import com.facebook.react.bridge.LifecycleEventListener;
+@@ -325,13 +325,13 @@ public class RNBluetoothClassicModule
+      */
+     @Override
+     public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
+-        if (BuildConfig.DEBUG)
+-            Log.d(TAG, String.format("onActivityResult requestCode: %d resultCode: %d", requestCode, resultCode));
++        //if (BuildConfig.DEBUG)
++          //  Log.d(TAG, String.format("onActivityResult requestCode: %d resultCode: %d", requestCode, resultCode));
+ 
+         if (requestCode == BluetoothRequest.ENABLE_BLUETOOTH.code) {
+             if (resultCode == Activity.RESULT_OK) {
+-                if (BuildConfig.DEBUG)
+-                    Log.d(TAG, "User enabled Bluetooth");
++            //    if (BuildConfig.DEBUG)
++            //        Log.d(TAG, "User enabled Bluetooth");
+ 
+                 if (mEnabledPromise != null) {
+                     mEnabledPromise.resolve(true);
+@@ -339,8 +339,8 @@ public class RNBluetoothClassicModule
+                             new BluetoothStateEvent(BluetoothState.ENABLED).map());
+                 }
+             } else {
+-                if (BuildConfig.DEBUG)
+-                    Log.d(TAG, "User did *NOT* enable Bluetooth");
++            //    if (BuildConfig.DEBUG)
++            //        Log.d(TAG, "User did *NOT* enable Bluetooth");
+ 
+                 if (mEnabledPromise != null) {
+                     mEnabledPromise.reject(new Exception("User did not enable Bluetooth"));
+@@ -352,32 +352,32 @@ public class RNBluetoothClassicModule
+ 
+     @Override
+     public void onNewIntent(Intent intent) {
+-        if (BuildConfig.DEBUG)
+-            Log.d(TAG, "onNewIntent: " + intent.getAction());
++    //    if (BuildConfig.DEBUG)
++    //        Log.d(TAG, "onNewIntent: " + intent.getAction());
+     }
+     // endregion
+ 
+     // region: LifecycleEventListener
+     @Override
+     public void onHostResume() {
+-        if (BuildConfig.DEBUG)
+-            Log.d(TAG, "onHostResume: register Application receivers");
++    //    if (BuildConfig.DEBUG)
++    //        Log.d(TAG, "onHostResume: register Application receivers");
+ 
+         registerBluetoothReceivers();
+     }
+ 
+     @Override
+     public void onHostPause() {
+-        if (BuildConfig.DEBUG)
+-            Log.d(TAG, "onHostPause: unregister receivers");
++    //    if (BuildConfig.DEBUG)
++    //        Log.d(TAG, "onHostPause: unregister receivers");
+ 
+         unregisterBluetoothReceivers();
+     }
+ 
+     @Override
+     public void onHostDestroy() {
+-        if (BuildConfig.DEBUG)
+-            Log.d(TAG, "onHostDestroy: stop discovery, connections and unregister receivers");
++    //    if (BuildConfig.DEBUG)
++    //        Log.d(TAG, "onHostDestroy: stop discovery, connections and unregister receivers");
+ 
+         if (mAdapter != null && hasBluetoothScanPermission()) {
+             try {
+@@ -606,8 +606,8 @@ public class RNBluetoothClassicModule
+             promise.reject(Exceptions.BONDING_UNAVAILABLE_API.name(),
+                     Exceptions.BONDING_UNAVAILABLE_API.message());
+         } else {
+-            if (BuildConfig.DEBUG)
+-                Log.d(TAG, String.format("Attempting to pair with device %s", address));
++//            if (BuildConfig.DEBUG)
++//                Log.d(TAG, String.format("Attempting to pair with device %s", address));
+ 
+             final PairingReceiver pr = new PairingReceiver(getReactApplicationContext(),
+                     new PairingReceiver.PairingCallback() {
+@@ -661,8 +661,8 @@ public class RNBluetoothClassicModule
+             promise.reject(Exceptions.BONDING_UNAVAILABLE_API.name(),
+                     Exceptions.BONDING_UNAVAILABLE_API.message());
+         } else {
+-            if (BuildConfig.DEBUG)
+-                Log.d(TAG, String.format("Attempting to pair with device %s", address));
++//            if (BuildConfig.DEBUG)
++//                Log.d(TAG, String.format("Attempting to pair with device %s", address));
+ 
+             try {
+                 BluetoothDevice device = mAdapter.getRemoteDevice(address);
+diff --git a/node_modules/react-native-bluetooth-classic/android/src/main/java/kjd/reactnative/bluetooth/receiver/PairingReceiver.java b/node_modules/react-native-bluetooth-classic/android/src/main/java/kjd/reactnative/bluetooth/receiver/PairingReceiver.java
+index fef8352..9a7b057 100644
+--- a/node_modules/react-native-bluetooth-classic/android/src/main/java/kjd/reactnative/bluetooth/receiver/PairingReceiver.java
++++ b/node_modules/react-native-bluetooth-classic/android/src/main/java/kjd/reactnative/bluetooth/receiver/PairingReceiver.java
+@@ -11,7 +11,7 @@ import android.util.Log;
+ import com.facebook.react.bridge.LifecycleEventListener;
+ import com.facebook.react.bridge.ReactApplicationContext;
+ 
+-import kjd.reactnative.bluetooth.BuildConfig;
++// import kjd.reactnative.bluetooth.BuildConfig;
+ import kjd.reactnative.bluetooth.device.NativeDevice;
+ 
+ /**
+@@ -45,14 +45,14 @@ public class PairingReceiver extends BroadcastReceiver
+             final NativeDevice wrapper = new NativeDevice(device);
+ 
+             if (state == BluetoothDevice.BOND_BONDED) {
+-                if (BuildConfig.DEBUG)
+-                    Log.d(TAG, String.format("Successfully paired with device %s", device.getAddress()));
++   //             if (BuildConfig.DEBUG)
++     //               Log.d(TAG, String.format("Successfully paired with device %s", device.getAddress()));
+ 
+                 mCallback.onPairingSuccess(wrapper);
+                 context.unregisterReceiver(this);
+             } else if (state == BluetoothDevice.BOND_NONE){
+-                if (BuildConfig.DEBUG)
+-                    Log.d(TAG, String.format("Completed un-pairing with device %s", device.getAddress()));
++       //         if (BuildConfig.DEBUG)
++         //           Log.d(TAG, String.format("Completed un-pairing with device %s", device.getAddress()));
+ 
+                 mCallback.onPairingSuccess(wrapper);
+                 context.unregisterReceiver(this);
+diff --git a/node_modules/react-native-bluetooth-classic/android/src/main/java/kjd/reactnative/bluetooth/receiver/StateChangeReceiver.java b/node_modules/react-native-bluetooth-classic/android/src/main/java/kjd/reactnative/bluetooth/receiver/StateChangeReceiver.java
+index e797b85..d41ab2f 100644
+--- a/node_modules/react-native-bluetooth-classic/android/src/main/java/kjd/reactnative/bluetooth/receiver/StateChangeReceiver.java
++++ b/node_modules/react-native-bluetooth-classic/android/src/main/java/kjd/reactnative/bluetooth/receiver/StateChangeReceiver.java
+@@ -9,7 +9,7 @@ import android.util.Log;
+ 
+ import kjd.reactnative.bluetooth.RNBluetoothClassicModule;
+ import kjd.reactnative.bluetooth.BluetoothState;
+-import kjd.reactnative.bluetooth.BuildConfig;
++// import kjd.reactnative.bluetooth.BuildConfig;
+ 
+ /**
+  * Provides listening to {@link BluetoothAdapter#ACTION_STATE_CHANGED} events.
+@@ -38,14 +38,14 @@ public class StateChangeReceiver extends BroadcastReceiver {
+ 
+             switch (state) {
+                 case BluetoothAdapter.STATE_OFF:
+-                    if (BuildConfig.DEBUG)
+-                        Log.d(this.getClass().getSimpleName(), "Bluetooth is now disabled");
++     //               if (BuildConfig.DEBUG)
++   //                     Log.d(this.getClass().getSimpleName(), "Bluetooth is now disabled");
+ 
+                     mCallback.onStateChange(BluetoothState.DISABLED, BluetoothState.ENABLED);
+                     break;
+                 case BluetoothAdapter.STATE_ON:
+-                    if (BuildConfig.DEBUG)
+-                        Log.d(this.getClass().getSimpleName(), "Bluetooth is now enabled");
++       //             if (BuildConfig.DEBUG)
++         //               Log.d(this.getClass().getSimpleName(), "Bluetooth is now enabled");
+ 
+                     mCallback.onStateChange(BluetoothState.ENABLED, BluetoothState.DISABLED);
+                     break;
