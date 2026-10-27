@@ -8,7 +8,8 @@
     "scheme": "app",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.anonymous.app"
     },
     "android": {
       "permissions": [
@@ -46,6 +47,16 @@
           "peripheralUsageDescription": "Connect to ESP32 over Bluetooth",
           "alwaysUsageDescription": "Use Bluetooth to communicate with ESP32",
           "protocols": []
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "extraProjectProperties": {
+              "android.defaults.buildfeatures.buildconfig": "true"
+            }
+          }
         }
       ]
     ],
