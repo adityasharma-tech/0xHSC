@@ -32,7 +32,7 @@ import {
   offset,
   size,
 } from "@expo/ui/jetpack-compose/modifiers";
-import MediaKeys from "../../modules/media-keys"; // adjust if your folders differ
+import MediaKeys from "../../modules/media-keys";
 
 const ESP_NAME = "0xHSC";
 const RETRY_MS = 5000;
@@ -157,8 +157,8 @@ export default function HomeScreen() {
     (raw: string) => {
       const line = raw.trim();
       if (!line) return;
-      if (line === "P") MediaKeys.play();
-      else if (line === "S") MediaKeys.pause();
+      if (line === "P") MediaKeys.playPause();
+      else if (line === "S") MediaKeys.next();
       else if (line.startsWith("V:")) {
         const n = Number(line.slice(2));
         if (Number.isFinite(n)) applyVolume(n);
@@ -167,7 +167,6 @@ export default function HomeScreen() {
     [applyVolume],
   );
 
-  // ---------- bluetooth ----------
   const loadDevices = useCallback(async () => {
     try {
       if (!(await RNBluetoothClassic.isBluetoothEnabled())) {
@@ -354,7 +353,7 @@ export default function HomeScreen() {
                 >
                   <HorizontalFloatingToolbar
                     variant="vibrant"
-                    modifiers={[align("bottomCenter"), offset(0, -16)]}
+                    modifiers={[align("bottomCenter")]}
                   >
                     <IconButton
                       modifiers={[size(68, 60)]}
