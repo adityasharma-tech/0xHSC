@@ -1,0 +1,9 @@
+expo.modules.mediakeys.media-keys-pngs-0 /home/friday/.data/0xHSC/app/modules/media-keys/android/build/generated/res/pngs/release
+expo.modules.mediakeys.media-keys-updated_navigation_xml-1 /home/friday/.data/0xHSC/app/modules/media-keys/android/build/generated/updated_navigation_xml/release
+expo.modules.mediakeys.media-keys-mergeReleaseResources-2 /home/friday/.data/0xHSC/app/modules/media-keys/android/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+expo.modules.mediakeys.media-keys-mergeReleaseResources-3 /home/friday/.data/0xHSC/app/modules/media-keys/android/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+expo.modules.mediakeys.media-keys-release-4 /home/friday/.data/0xHSC/app/modules/media-keys/android/build/intermediates/merged_res/release/mergeReleaseResources
+expo.modules.mediakeys.media-keys-release-5 /home/friday/.data/0xHSC/app/modules/media-keys/android/build/intermediates/packaged_res/release/packageReleaseResources
+expo.modules.mediakeys.media-keys-main-6 /home/friday/.data/0xHSC/app/modules/media-keys/android/src/main/res
+expo.modules.mediakeys.media-keys-release-7 /home/friday/.data/0xHSC/app/modules/media-keys/android/src/release/res
+gradleHome-0 /home/friday/.gradle
