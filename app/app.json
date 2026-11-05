@@ -11,6 +11,9 @@
       "icon": "./assets/expo.icon",
       "bundleIdentifier": "com.anonymous.app"
     },
+    "scripts": {
+        "build:android": "expo export --platform android"
+      },
     "android": {
       "permissions": [
         "android.permission.ACCESS_FINE_LOCATION",
@@ -22,15 +25,18 @@
         "android.permission.BLUETOOTH_ADMIN",
         "android.permission.BLUETOOTH_CONNECT",
         "android.permission.BLUETOOTH_SCAN",
-        "android.permission.BLUETOOTH_ADVERTISE"
+        "android.permission.BLUETOOTH_ADVERTISE",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"
       ],
       "predictiveBackGestureEnabled": false,
       "package": "com.anonymous.app"
     },
     "web": {
-      "output": "server",
-      "favicon": "./assets/images/favicon.png"
-    },
+          "bundler": "metro",
+          "output": "single"
+        },
     "plugins": [
       "expo-router",
       [
@@ -58,7 +64,19 @@
             }
           }
         }
-      ]
+      ],
+      [
+        "react-native-ble-plx",
+        {
+          "isBackgroundEnabled": true,
+          "modes": [
+            "peripheral",
+            "central"
+          ],
+          "bluetoothAlwaysPermission": "Allow $(PRODUCT_NAME) to connect to bluetooth devices"
+        }
+      ],
+      "react-native-notify-kit"
     ],
     "experiments": {
       "typedRoutes": true,

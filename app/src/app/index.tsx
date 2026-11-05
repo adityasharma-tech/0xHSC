@@ -1,20 +1,16 @@
 import {
   Alert,
+  AppState,
   FlatList,
   Modal,
-  PermissionsAndroid,
-  Platform,
   Pressable,
   StyleSheet,
   Text,
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { useCallback, useEffect, useRef, useState } from "react";
-import RNBluetoothClassic, {
-  BluetoothDevice,
-} from "react-native-bluetooth-classic";
-import { VolumeManager } from "react-native-volume-manager";
+import { useEffect } from "react";
+import { Device } from "react-native-ble-plx";
 import { AnimatedIcon } from "@/components/animated-icon";
 import { ThemedView } from "@/components/themed-view";
 import GaugeComp from "@/components/gauge";
@@ -26,42 +22,34 @@ import {
   Icon,
   IconButton,
 } from "@expo/ui/jetpack-compose";
-import {
-  align,
-  fillMaxSize,
-  offset,
-  size,
-} from "@expo/ui/jetpack-compose/modifiers";
+import { align, fillMaxSize, size } from "@expo/ui/jetpack-compose/modifiers";
 import MediaKeys from "../../modules/media-keys";
+import { useBle } from "@/services/store";
+import {
+  disconnectDevice,
+  selectDevice,
+  startBle,
+  startPickerScan,
+  stopPickerScan,
+} from "@/services/ble";
 
 const ESP_NAME = "0xHSC";
-const RETRY_MS = 5000;
-const CONNECT_OPTIONS: any = { DELIMITER: "\n" };
-
-async function ensureBluetoothPermissions() {
-  if (Platform.OS !== "android") return false;
-  const P = PermissionsAndroid.PERMISSIONS;
-  const wanted =
-    Number(Platform.Version) >= 31
-      ? [P.BLUETOOTH_CONNECT]
-      : [P.ACCESS_FINE_LOCATION];
-  const result = await PermissionsAndroid.requestMultiple(wanted);
-  return wanted.every((p) => result[p] === PermissionsAndroid.RESULTS.GRANTED);
-}
 
 type PickerProps = {
   visible: boolean;
-  devices: BluetoothDevice[];
-  connectedAddress: string | null;
-  onSelect: (device: BluetoothDevice) => void;
+  scanning: boolean;
+  devices: Device[];
+  connectedId: string | null;
+  onSelect: (device: Device) => void;
   onDisconnect: () => void;
   onClose: () => void;
 };
 
 function DevicePickerModal({
   visible,
+  scanning,
   devices,
-  connectedAddress,
+  connectedId,
   onSelect,
   onDisconnect,
   onClose,
@@ -75,18 +63,17 @@ function DevicePickerModal({
       onRequestClose={onClose}
     >
       <View style={styles.overlay}>
-        {/* tap outside to close */}
         <Pressable style={StyleSheet.absoluteFill} onPress={onClose} />
 
         <View style={styles.dialog}>
           <View style={styles.header}>
-            <Text style={styles.title}>Paired Devices</Text>
+            <Text style={styles.title}>Nearby Devices</Text>
             <Pressable onPress={onClose} hitSlop={12}>
               <Text style={styles.closeButton}>✕</Text>
             </Pressable>
           </View>
 
-          {connectedAddress && (
+          {connectedId && (
             <Pressable style={styles.disconnectRow} onPress={onDisconnect}>
               <Text style={styles.disconnectText}>Disconnect</Text>
             </Pressable>
@@ -94,13 +81,14 @@ function DevicePickerModal({
 
           <FlatList
             data={devices}
-            keyExtractor={(item) => item.address}
+            keyExtractor={(item) => item.id}
             style={styles.list}
             keyboardShouldPersistTaps="handled"
             ListEmptyComponent={
               <Text style={styles.empty}>
-                No paired devices. Pair {ESP_NAME} in Android's Bluetooth
-                settings first.
+                {scanning
+                  ? `Searching for ${ESP_NAME} and other BLE devices…`
+                  : "No devices found."}
               </Text>
             }
             ItemSeparatorComponent={() => <View style={styles.separator} />}
@@ -108,10 +96,10 @@ function DevicePickerModal({
               <Pressable style={styles.item} onPress={() => onSelect(item)}>
                 <View style={styles.itemContent}>
                   <Text style={styles.itemTitle}>
-                    {item.name ?? item.address}
-                    {item.address === connectedAddress ? "  • connected" : ""}
+                    {item.name ?? item.localName ?? item.id}
+                    {item.id === connectedId ? "  • connected" : ""}
                   </Text>
-                  <Text style={styles.subtitle}>{item.address}</Text>
+                  <Text style={styles.subtitle}>{item.id}</Text>
                 </View>
               </Pressable>
             )}
@@ -123,211 +111,43 @@ function DevicePickerModal({
 }
 
 export default function HomeScreen() {
-  const [devices, setDevices] = useState<BluetoothDevice[]>([]);
-  const [device, setDevice] = useState<BluetoothDevice | null>(null);
-  const [connecting, setConnecting] = useState(false);
-  const [visible, setVisible] = useState(false);
-  const [volume, setVolume] = useState(0);
+  const { connecting, scanning, device, devices, visible, volume, setVisible } =
+    useBle((state) => state);
 
   const connected = device !== null;
 
-  // refs so timers/callbacks never see stale values
-  const deviceRef = useRef<BluetoothDevice | null>(null);
-  const connectingRef = useRef(false);
-  const targetAddress = useRef<string | null>(null); // device we keep reconnecting to
-  const autoReconnect = useRef(true);
-  const permissionsOk = useRef(false);
-
-  const updateDevice = useCallback((d: BluetoothDevice | null) => {
-    deviceRef.current = d;
-    setDevice(d);
-  }, []);
-
-  // ---------- phone control ----------
-  const applyVolume = useCallback((pct: number) => {
-    const v = Math.min(100, Math.max(0, Math.round(pct)));
-    setVolume(v);
-    VolumeManager.setVolume(v / 100, { type: "music", showUI: false }).catch(
-      (e: unknown) => console.warn("setVolume failed", e),
-    );
-  }, []);
-
-  // one line from the ESP32: "P", "S" or "V:73"
-  const handleLine = useCallback(
-    (raw: string) => {
-      const line = raw.trim();
-      if (!line) return;
-      if (line === "P") MediaKeys.playPause();
-      else if (line === "S") MediaKeys.next();
-      else if (line.startsWith("V:")) {
-        const n = Number(line.slice(2));
-        if (Number.isFinite(n)) applyVolume(n);
-      }
-    },
-    [applyVolume],
-  );
-
-  const loadDevices = useCallback(async () => {
-    try {
-      if (!(await RNBluetoothClassic.isBluetoothEnabled())) {
-        await RNBluetoothClassic.requestBluetoothEnabled();
-      }
-      const paired = await RNBluetoothClassic.getBondedDevices();
-      setDevices(paired);
-      return paired;
-    } catch (error: any) {
-      Alert.alert(
-        "Bluetooth Error",
-        error?.message ?? "Could not load paired devices",
-      );
-      return [];
-    }
-  }, []);
-
-  const connectDevice = useCallback(
-    async (target: BluetoothDevice, silent = false) => {
-      if (connectingRef.current) return;
-      connectingRef.current = true;
-      setConnecting(true);
-
-      try {
-        const current = deviceRef.current;
-        if (current && current.address !== target.address) {
-          await current.disconnect().catch(() => {});
-          updateDevice(null);
-        }
-
-        if (!(await target.isConnected())) {
-          await target.connect(CONNECT_OPTIONS);
-        }
-        if (!(await target.isConnected())) {
-          throw new Error("Could not open a connection");
-        }
-
-        targetAddress.current = target.address;
-        autoReconnect.current = true;
-        updateDevice(target);
-      } catch (error: any) {
-        if (!silent) {
-          Alert.alert(
-            "Connection Failed",
-            error?.message ?? "Unable to connect to the device",
-          );
-        }
-      } finally {
-        connectingRef.current = false;
-        setConnecting(false);
-      }
-    },
-    [updateDevice],
-  );
-
-  const disconnectDevice = useCallback(async () => {
-    autoReconnect.current = false; // user chose to disconnect: stop retrying
-    try {
-      await deviceRef.current?.disconnect();
-    } catch (error) {
-      console.warn("Disconnect error:", error);
-    } finally {
-      updateDevice(null);
-      setVisible(false);
-    }
-  }, [updateDevice]);
-
-  const openPicker = () => {
-    loadDevices();
-    setVisible(true);
-  };
-
-  // first launch: permissions, then connect to the ESP32 if it is already paired
   useEffect(() => {
-    let cancelled = false;
-    (async () => {
-      const ok = await ensureBluetoothPermissions();
-      permissionsOk.current = ok;
+    startBle().then((ok) => {
       if (!ok) {
         Alert.alert(
           "Permission needed",
           "Bluetooth permission is required to talk to the controller.",
         );
-        return;
-      }
-      const paired = await loadDevices();
-      if (cancelled) return;
-      const esp = paired.find((d) => d.name === ESP_NAME);
-      if (esp) {
-        targetAddress.current = esp.address;
-        connectDevice(esp, true);
-      }
-    })();
-    return () => {
-      cancelled = true;
-    };
-  }, [loadDevices, connectDevice]);
-
-  // listen for lines while connected
-  useEffect(() => {
-    if (!device) return;
-    const subscription = device.onDataReceived((event: any) => {
-      handleLine(String(event.data ?? ""));
-    });
-    return () => subscription.remove();
-  }, [device, handleLine]);
-
-  // the OS tells us when the link drops
-  useEffect(() => {
-    const subscription = RNBluetoothClassic.onDeviceDisconnected((event: any) => {
-      if (event?.device?.address === deviceRef.current?.address) {
-        updateDevice(null);
       }
     });
-    return () => subscription.remove();
-  }, [updateDevice]);
-
-  // headphone-style reconnect while the app is open
-  useEffect(() => {
-    const id = setInterval(async () => {
-      if (
-        deviceRef.current ||
-        connectingRef.current ||
-        !autoReconnect.current ||
-        !targetAddress.current ||
-        !permissionsOk.current
-      ) {
-        return;
-      }
-      try {
-        const paired = await RNBluetoothClassic.getBondedDevices();
-        const target = paired.find((d) => d.address === targetAddress.current);
-        if (target) connectDevice(target, true);
-      } catch {
-        // ignore, try again next tick
-      }
-    }, RETRY_MS);
-    return () => clearInterval(id);
-  }, [connectDevice]);
-
-  // keep the gauge in sync with the phone's own volume buttons
-  useEffect(() => {
-    VolumeManager.getVolume()
-      .then((r: any) => {
-        const v = typeof r === "number" ? r : r?.volume;
-        if (typeof v === "number") setVolume(Math.round(v * 100));
-      })
-      .catch(() => {});
-
-    const subscription = VolumeManager.addVolumeListener((r: any) => {
-      if (r?.type && r.type !== "music") return;
-      setVolume(Math.round((r?.volume ?? 0) * 100));
+    const subscription = AppState.addEventListener("change", (state) => {
+      if (state === "active") startBle();
     });
     return () => subscription.remove();
   }, []);
 
+  const openPicker = () => {
+    setVisible(true);
+    startPickerScan();
+  };
+
+  const closePicker = () => {
+    setVisible(false);
+    stopPickerScan();
+  };
+
   const status = connecting
     ? "Connecting…"
     : connected
-      ? `Connected to ${device?.name ?? device?.address}`
-      : "Not connected";
+      ? `Connected to ${device?.name ?? device?.localName ?? device?.id}`
+      : scanning
+        ? "Searching…"
+        : "Not connected";
 
   return (
     <ThemedView style={styles.container}>
@@ -364,10 +184,7 @@ export default function HomeScreen() {
                         source={require("../../assets/images/play_pause.png")}
                       />
                     </IconButton>
-                    <IconButton
-                      modifiers={[size(68, 60)]}
-                      onClick={openPicker}
-                    >
+                    <IconButton modifiers={[size(68, 60)]} onClick={openPicker}>
                       {connected ? (
                         <Icon
                           size={36}
@@ -396,17 +213,20 @@ export default function HomeScreen() {
         </ThemedView>
       </SafeAreaView>
 
-      {/* outside Host / SafeAreaView on purpose */}
       <DevicePickerModal
         visible={visible}
+        scanning={scanning}
         devices={devices}
-        connectedAddress={device?.address ?? null}
+        connectedId={device?.id ?? null}
         onSelect={(d) => {
-          setVisible(false);
-          connectDevice(d);
+          closePicker();
+          selectDevice(d.id);
         }}
-        onDisconnect={disconnectDevice}
-        onClose={() => setVisible(false)}
+        onDisconnect={async () => {
+          await disconnectDevice();
+          closePicker();
+        }}
+        onClose={closePicker}
       />
     </ThemedView>
   );
